@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        ETRCollectionModel
                        DESC
-  s.homepage         = "https://github.com/Vadim-Yelagin/ETRCollectionModel"
+  s.homepage         = "https://gitlab.eastbanctech.ru/v.yelagin/etrcollectionmodel"
   s.license          = 'MIT'
-  s.author           = { "Vadim Yelagin" => "vadim.yelagin@gmail.com" }
-  s.source           = { :git => "https://github.com/Vadim-Yelagin/ETRCollectionModel.git", :tag => s.version.to_s }
+  s.author           = { "Vadim Yelagin" => "v.yelagin@eastbanctech.ru" }
+  s.source           = { :git => "ssh://git@gitlab.eastbanctech.ru:11022/v.yelagin/etrcollectionmodel.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
