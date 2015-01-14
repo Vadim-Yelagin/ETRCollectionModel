@@ -1,0 +1,14 @@
+PODS:
+  - ETRCollectionModel (0.1.0)
+
+DEPENDENCIES:
+  - ETRCollectionModel (from `../`)
+
+EXTERNAL SOURCES:
+  ETRCollectionModel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ETRCollectionModel: c0353a25757971546249f999e3c3ba41a5ea6794
+
+COCOAPODS: 0.35.0
