@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ETRCollectionModel', :exclusive => true do
+  pod "ETRCollectionModel", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ETRCollectionModel", :path => "../"
+
+  
+end
