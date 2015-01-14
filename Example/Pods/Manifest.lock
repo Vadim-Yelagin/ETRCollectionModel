@@ -1,5 +1,13 @@
 PODS:
-  - ETRCollectionModel (0.1.0)
+  - ETRCollectionModel (0.1.0):
+    - ReactiveCocoa (~> 2.3)
+  - ReactiveCocoa (2.4.2):
+    - ReactiveCocoa/UI (= 2.4.2)
+  - ReactiveCocoa/Core (2.4.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.2)
+  - ReactiveCocoa/UI (2.4.2):
+    - ReactiveCocoa/Core
 
 DEPENDENCIES:
   - ETRCollectionModel (from `../`)
@@ -9,6 +17,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ETRCollectionModel: c0353a25757971546249f999e3c3ba41a5ea6794
+  ETRCollectionModel: a593ae7cdfa567f66acfef71f564155c6a130f03
+  ReactiveCocoa: 8418a82b67af2f1b7587baf29c329040a23c2063
 
 COCOAPODS: 0.35.0

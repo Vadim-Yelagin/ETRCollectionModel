@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/Implementations/ETRStaticCollectionModel.h
