@@ -13,11 +13,12 @@ Pod::Spec.new do |s|
   s.summary          = "MVVM for iOS tables and collections."
   s.description      = <<-DESC
                        ETRCollectionModel
+                       MVVM for iOS tables and collections.
                        DESC
   s.homepage         = "https://gitlab.eastbanctech.ru/v.yelagin/etrcollectionmodel"
   s.license          = 'MIT'
   s.author           = { "Vadim Yelagin" => "v.yelagin@eastbanctech.ru" }
-  s.source           = { :git => "ssh://git@gitlab.eastbanctech.ru:11022/v.yelagin/etrcollectionmodel.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://gitlab.eastbanctech.ru/v.yelagin/etrcollectionmodel.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
