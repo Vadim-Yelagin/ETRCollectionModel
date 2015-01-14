@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Vadim Yelagin, v.yelagin@eastbanctech.ru
+Vadim Yelagin, vadim.yelagin@gmail.com
 
 ## License
 

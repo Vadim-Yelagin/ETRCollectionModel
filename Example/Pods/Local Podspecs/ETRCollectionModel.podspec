@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.summary          = "MVVM for iOS tables and collections."
   s.description      = <<-DESC
                        ETRCollectionModel
+                       MVVM for iOS tables and collections.
                        DESC
   s.homepage         = "https://github.com/Vadim-Yelagin/ETRCollectionModel"
   s.license          = 'MIT'
@@ -22,7 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
+  s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
   }
 
