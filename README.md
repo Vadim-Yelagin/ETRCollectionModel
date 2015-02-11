@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/ETRCollectionModel.svg?style=flat)](http://cocoadocs.org/docsets/ETRCollectionModel)
 [![Platform](https://img.shields.io/cocoapods/p/ETRCollectionModel.svg?style=flat)](http://cocoadocs.org/docsets/ETRCollectionModel)
 
+Objective-C library for implementing table and collection views.
+It introduces the concept of path-indexed collections than can be composed and used as view-models for table and collection view controllers, with thier items acting as view-models for corresponding cells.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
