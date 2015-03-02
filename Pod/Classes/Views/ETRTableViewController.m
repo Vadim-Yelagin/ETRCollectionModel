@@ -197,8 +197,7 @@ titleForFooterInSection:(NSInteger)section
 {
     id item = [self.viewModel itemAtIndexPath:indexPath];
     NSString *reuseIdentifier = [self.reuseIdentifierMatching reuseIdentifierForItem:item];
-    ETRTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier
-                                                             forIndexPath:indexPath];
+    ETRTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
     cell.tableViewController = self;
     cell.viewModel = item;
     return cell;
